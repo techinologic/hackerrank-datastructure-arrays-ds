@@ -1,8 +1,5 @@
 import java.util.Scanner;
 
-/**
- * Created by Paopao on 07/19/17.
- */
 public class Solution {
 
     public static void main(String[] args) {
@@ -12,7 +9,7 @@ public class Solution {
 
         int[] array = new int[n];
         for (int i = n; i > 0; i--) {
-            array[i-1] = sc.nextInt();
+            array[i - 1] = sc.nextInt();
         }
         for (int num :
                 array) {
